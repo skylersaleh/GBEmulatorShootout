@@ -43,7 +43,7 @@ jobs:
           path: startuptime.html
       - name: Run tests
         run: |
-          python main.py --emulator !mGBA --emulator !KiGB --emulator !Goomba --emulator '!No$gmb' --emulator !binjgb
+          python main.py --emulator !mGBA
           python main.py --dump-tests-json --dump-emulators-json
       - name: Deploy pages
         run: |
@@ -62,3 +62,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           directory: pages
+          force: true
