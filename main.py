@@ -33,6 +33,7 @@ from emulators.goomba import Goomba
 from emulators.binjgb import Binjgb
 from emulators.pyboy import PyBoy
 from emulators.ares import Ares
+from emulators.SkyEmu import SkyEmu
 from util import *
 from test import *
 
@@ -53,6 +54,7 @@ emulators = [
     Binjgb(),
     PyBoy(),
     Ares(),
+    SkyEmu(),
 ]
 tests = testroms.acid.all + testroms.blarg.all + testroms.daid.all + testroms.ax6.all + testroms.mooneye.all + testroms.samesuite.all + testroms.hacktix.all + testroms.cpp.all
 
