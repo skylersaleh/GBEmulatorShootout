@@ -5,10 +5,11 @@ import shutil
 import os
 
 
-class SkyEmu(Emulator):
+class SkyEmuDev(Emulator):
     def __init__(self):
-        super().__init__("SkyEmu", "https://skyemu.app/", startup_time=0.6)
+        super().__init__("SkyEmu (Dev Branch)", "https://skyemu.app/", startup_time=0.6)
         self.speed = 1.0
+        self.title_check = lambda title: title.startswith("SkyEmu")
 
     def setup(self):
         download("https://nightly.link/skylersaleh/SkyEmu/workflows/deploy_win/dev/WindowsRelease.zip", "downloads/SkyEmu.zip")
