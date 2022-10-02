@@ -44,7 +44,7 @@ emulators = [
     KiGB(), # Crashes on github actions
     SameBoy(),
     BGB(),
-    VBA(),
+    # VBA(), No longer working
     VBAM(),
     NoCash(),
     GambatteSpeedrun(),
