@@ -41,7 +41,7 @@ from test import *
 emulators = [
     BDM(),
     MGBA(), # Black screen on github actions
-    KiGB(), # Crashes on github actions
+    #KiGB(), # Crashes on github actions
     SameBoy(),
     BGB(),
     # VBA(), No longer working
