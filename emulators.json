@@ -7,10 +7,6 @@
     "file": "mgba.json",
     "url": "https://mgba.io/"
   },
-  "KiGB": {
-    "file": "kigb.json",
-    "url": "http://kigb.emuunlim.com/"
-  },
   "SameBoy": {
     "file": "sameboy.json",
     "url": "https://sameboy.github.io/"
@@ -18,10 +14,6 @@
   "bgb": {
     "file": "bgb.json",
     "url": "https://bgb.bircd.org/"
-  },
-  "VisualBoyAdvance": {
-    "file": "visualboyadvance.json",
-    "url": "https://sourceforge.net/projects/"
   },
   "VisualBoyAdvance-M": {
     "file": "visualboyadvance-m.json",
@@ -54,5 +46,9 @@
   "ares": {
     "file": "ares.json",
     "url": "https://ares-emu.net/"
+  },
+  "SkyEmu": {
+    "file": "skyemu.json",
+    "url": "https://skyemu.app/"
   }
 }
